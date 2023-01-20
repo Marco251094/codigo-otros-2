@@ -1,6 +1,6 @@
-var formulario = document.querySelector("#form")
+var formulario = document.querySelector(".formulario")// se pone la forma correcta de poner la clase
 
-formulario.onsubmit = function(e) {
+formulario  = function(e) {
 
   e.prevent();
   
